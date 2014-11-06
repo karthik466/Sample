@@ -12,7 +12,7 @@ public class FragementTwo extends Fragment {
 public View onCreateView(LayoutInflater inflater, ViewGroup container,
 		Bundle savedInstanceState) {
 	View v=inflater.inflate(R.layout.frag_two, container,false);
-	v.setAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.shake));
+	v.setAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.bottom_to_top));
 	return v;
 }
 }
